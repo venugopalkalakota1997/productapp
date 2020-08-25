@@ -1,31 +1,22 @@
 {
   "productdetails": [
     {
-      "id": 14,
-      "name": "LG Televison",
-      "productdetails": "64 inch 4k ",
-      "quantity": "03",
-      "price": "640000",
-      "category": "Televison",
-      "image": "televison.jpg"
-    },
-    {
+      "id": 16,
       "name": "Iphone",
       "productdetails": "6gd ram/256gb memory",
-      "quantity": "12",
+      "quantity": "100",
       "price": "100000",
       "category": "Mobile",
-      "image": "mobile.jpg",
-      "id": 16
+      "image": "mobile.jpg"
     },
     {
+      "id": 17,
       "name": "oneplus 8pro",
-      "productdetails": "8gb ram/256gb memory",
-      "quantity": "10",
+      "productdetails": "8gb ram/256gb memory ",
+      "quantity": "0",
       "price": "70000",
       "category": "Mobile",
-      "image": "mobile.jpg",
-      "id": 17
+      "image": "mobile.jpg"
     },
     {
       "name": "samsung S10",
@@ -89,6 +80,69 @@
       "price": "20000",
       "category": "Televison",
       "image": "televison.jpg"
+    },
+    {
+      "id": 29,
+      "name": "venu",
+      "productdetails": "jjjj",
+      "quantity": "10",
+      "price": "10",
+      "category": "Televison",
+      "image": "televison.jpg"
+    },
+    {
+      "name": "LG Telev",
+      "productdetails": "hghgjhjuhg",
+      "quantity": "0",
+      "price": "100",
+      "category": "Televison",
+      "image": "televison.jpg",
+      "id": 30
+    },
+    {
+      "name": "venu",
+      "productdetails": "uhjbnjhgvuytghbvn ",
+      "quantity": "20",
+      "price": "200",
+      "category": "Furniture",
+      "image": "mobile.jpg",
+      "id": 31
+    },
+    {
+      "id": 32,
+      "name": "LG Telev",
+      "productdetails": "uyhjbnhjnhujn",
+      "quantity": "20",
+      "price": "100",
+      "category": "Televison",
+      "image": "furniture.jpg"
+    },
+    {
+      "name": "LG Telev",
+      "productdetails": "rdfghbjnkuytf",
+      "quantity": "22",
+      "price": "100",
+      "category": "Televison",
+      "image": "televison.jpg",
+      "id": 33
+    },
+    {
+      "id": 34,
+      "name": "ytrfcvbhjghfv",
+      "productdetails": "ygufcvbnhjgv",
+      "quantity": "100",
+      "price": "100",
+      "category": "Televison",
+      "image": "computer.jpg"
+    },
+    {
+      "name": "new",
+      "productdetails": "hgbhjghbvnhjb",
+      "quantity": ".0",
+      "price": "1000",
+      "category": "Televison",
+      "image": "mobile.jpg",
+      "id": 35
     }
   ],
   "userdetails": [

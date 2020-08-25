@@ -9,7 +9,7 @@ export default function EditProductComponent(props) {
     let {detail }= props.route.params.item
     const navigation = useNavigation();
     let [newproduct, setproduct] = useState({
-        id: 0,
+        id: '',
         name: '',
         productdetails: '',
         quantity: '',
@@ -19,6 +19,7 @@ export default function EditProductComponent(props) {
 
     });
     useEffect(() => {
+       
         console.log(props.route.params.item);
         setproduct(props.route.params.item)
         console.log(newproduct);
@@ -74,8 +75,10 @@ export default function EditProductComponent(props) {
           setbuttonstatus(buttonstatus)
         }
         else{
+            
         let productRequestBody =newproduct
-        axios.put('http://localhost:3000/productdetails/'+detail.id, productRequestBody)
+        console.log(productRequestBody);
+        axios.put('http://localhost:3000/productdetails/'+newproduct['id'], productRequestBody)
                 .then(response=>{
                     console.log(response);
                    navigation.navigate('Home')
@@ -111,8 +114,7 @@ export default function EditProductComponent(props) {
                     <Picker.Item label="Computer Accessories" name="Computer Accessories" value="Computer Accessories" />
                 </Picker>
                 <Text>Product Image: <Text style={{color:'red'}}>*</Text></Text>
-                <Picker style={{ height: 50, width: 300 }}   style={globalstyles.forminput} onValueChange={selectimage}>
-                   
+                <Picker style={{ height: 50, width: 300 }}   style={globalstyles.forminput} onValueChange={selectimage}>                  
                     <Picker.Item label={newproduct['image']} value={newproduct['image']} />
                     <Picker.Item label="Televison" name="Televison" value="televison.jpg" />
                     <Picker.Item label="Mobile" name="Mobile" value="mobile.jpg" />
